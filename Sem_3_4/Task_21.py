@@ -9,7 +9,7 @@
 # - список: [], ищем: "123", ответ: -1
 
 list = ["qwe", "asd", "zxc", "qwe", "ertqwe"]
-find = "asd"
+find = "qwe"
 for i in range(len(list)):
    if list[i] == find:
        print(i)
